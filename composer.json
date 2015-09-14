@@ -1,5 +1,5 @@
 {
-    "name": "tobscure/json-api",
+    "name": "xbill82/php-json-api",
     "description": "JSON-API responses in PHP",
     "keywords": ["json", "api", "standard", "jsonapi"],
     "license": "MIT",
