@@ -11,14 +11,12 @@
 
 namespace Tobscure\JsonApi;
 
-use JsonSerializable;
-
 /**
  * This is the document class.
  *
  * @author Toby Zerner <toby.zerner@gmail.com>
  */
-class Document implements JsonSerializable
+class Document
 {
     /**
      * The links array.
@@ -219,15 +217,5 @@ class Document implements JsonSerializable
     public function __toString()
     {
         return json_encode($this->toArray());
-    }
-
-    /**
-     * Serialize for JSON usage.
-     *
-     * @return array
-     */
-    public function jsonSerialize()
-    {
-        return $this->toArray();
     }
 }
