@@ -72,7 +72,7 @@ class Criteria
      */
     public function getSort()
     {
-        $sort = [];
+        $sort = array();
 
         $fields = explode(',', $this->getInput('sort'));
 
